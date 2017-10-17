@@ -31,9 +31,7 @@
 <div class="segment">
     <div>
 <?php
-    echo s("Select one or more subscriber fields or attributes.
-The campaign will be sent only to those subscribers who match any or all of the conditions.
-To remove a condition, choose '%s' from the drop-down list.", $selectPrompt);
+    echo s("Select one or more subscriber fields or attributes. The campaign will be sent only to those subscribers who match any or all of the conditions. To remove a condition, choose '%s' from the drop-down list.", $selectPrompt);
 ?>
     </div>
     <div><?php echo s('Subscribers match %s of the following:', $combineList); ?></div>
